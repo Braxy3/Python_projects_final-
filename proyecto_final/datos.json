@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Batman A\u00f1o Uno",
+        "categoria": "DC",
+        "precio": 15.0,
+        "stock": 5,
+        "fecha": "Inicial"
+    },
+    {
+        "nombre": "Spider-Man Blue",
+        "categoria": "Marvel",
+        "precio": 18.0,
+        "stock": 3,
+        "fecha": "Inicial"
+    },
+    {
+        "nombre": "Watchmen",
+        "categoria": "DC",
+        "precio": 22.5,
+        "stock": 0,
+        "fecha": "Inicial"
+    },
+    {
+        "nombre": "Saga Vol.1",
+        "categoria": "Independiente",
+        "precio": 20.0,
+        "stock": 4,
+        "fecha": "Inicial"
+    }
+]
