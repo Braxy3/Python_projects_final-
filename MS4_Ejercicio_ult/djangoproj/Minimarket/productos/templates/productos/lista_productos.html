@@ -1,0 +1,16 @@
+<h1>Lista de Productos</h1>
+
+<a href="{% url 'crear_producto' %}">Agregar Producto</a>
+<br>
+<a href="{% url 'crear_categoria' %}">Agregar Categoría</a>
+
+<hr>
+
+{% for producto in productos %}
+    <p>
+        {{ producto.nombre }} - Q{{ producto.precio }}
+        (Categoría: {{ producto.categoria.nombre }})
+    </p>
+{% empty %}
+    <p>No hay productos registrados.</p>
+{% endfor %}
